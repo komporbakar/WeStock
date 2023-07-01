@@ -1,0 +1,178 @@
+html,body {
+    background-color: #212521;
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+}
+html, body {
+    height: 100%;
+  }
+
+  #footer {
+    height: 100px; /* Sesuaikan tinggi footer Anda */
+  }
+.sweeper-js{
+    margin-top: 30px;
+}
+#Navbar {
+    margin-bottom: 100px
+}
+
+nav {
+    margin-bottom: 60px;
+}
+
+.nav{
+    background-color: #424242;
+    color: white;
+    
+}
+
+.nav a {
+    font-weight: bold;
+    color: #eaeaea;
+}
+#content{
+    min-height: calc(100% - 100px);
+}
+
+.nav span {
+    margin-right: 20px;
+    font-weight: 600;
+}
+
+li a  {
+    color:#eaeaea;
+}
+.nav-link:hover{
+    color:azure
+}
+
+li .active {
+    color: aquamarine;
+}
+
+ul .dropdown-menu .dropdown-item {
+    color: #121212;
+    font-weight: 400;
+    
+}
+.content {
+    padding-left: 10px;
+    padding-right: 10px;
+    flex: 1;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+img {
+    max-height: 300px;
+   overflow:visible;
+}
+
+.category {
+    background-color: #3949ab ;
+    border-radius: 10px;
+    display: flex;
+    width: 100%;
+    height: 75%;
+    border: 0;
+    color: #eaeaea;
+    align-items: center;
+    justify-content: center;
+}
+
+.search {
+    background-color: #3949ab ;
+    border-radius: 10px;
+    color: #eaeaea;
+}
+
+.category .title {
+    font-size: small ;
+    text-align: center;
+    border: 0;
+    width: 100%;
+}
+
+
+swiper-container {
+    width: 80%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 800px;
+    height: 250px;
+  }
+
+  swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+
+  .footer {
+    background-color: #212529;
+    color: #f4f4f4;
+    border: 0px !important;
+  }
+  .copyright {
+    background-color: #212520;
+  }
+
+  .card {
+    background-color: #212529;
+    color: white;
+    
+  }
+
+  .accordion-item{
+    background-color: #212529;
+    border: 2px solid !important;
+    border-radius: 15px !important;
+  }
+
+  .radio-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .radio-container input[type="radio"] {
+    display: none;
+    border: 2px solid !important;
+  }
+  
+  .radio-container label {
+    display: inline-block;
+    padding: 10px 30px;
+    border: 2px solid #eaeaea;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .radio-container input[type="radio"]:checked + label {
+    background-color: #333;
+    color: #fff;
+    animation: radioEffect 0.5s ease-in-out;
+  }
+  
+  @keyframes radioEffect {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
